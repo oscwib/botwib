@@ -16,28 +16,32 @@ import tempfile
 import html5lib
 
 cl = Aan.LINE()
-cl.login(token="EoQWRbeN7FPR5gzhOyvb.VHH0q0Dhr8pSns5/+RsmgW.CPUNaL2uPZmGbAAiahXHnSxhdOxPEABgVlFFTtNKPvw=")
+#cl.login(token="token")
 cl.loginResult()
 
 c2 = Aan.LINE()
-c2.login(token="EoQWRbeN7FPR5gzhOyvb.VHH0q0Dhr8pSns5/+RsmgW.CPUNaL2uPZmGbAAiahXHnSxhdOxPEABgVlFFTtNKPvw=")
+#c2.login(token="token")
 c2.loginResult()
 
 c3 = Aan.LINE()
-c3.login(token="EoQWRbeN7FPR5gzhOyvb.VHH0q0Dhr8pSns5/+RsmgW.CPUNaL2uPZmGbAAiahXHnSxhdOxPEABgVlFFTtNKPvw=")
+#c3.login(token="token")
 c3.loginResult()
 
-c4 = Aan.LINE()
-c4.login(token="EoQWRbeN7FPR5gzhOyvb.VHH0q0Dhr8pSns5/+RsmgW.CPUNaL2uPZmGbAAiahXHnSxhdOxPEABgVlFFTtNKPvw=")
-c4.loginResult()
+c4 = cl
+c5 = c1
+c6 = c2
 
-c5 = Aan.LINE()
-c5.login(token="EoQWRbeN7FPR5gzhOyvb.VHH0q0Dhr8pSns5/+RsmgW.CPUNaL2uPZmGbAAiahXHnSxhdOxPEABgVlFFTtNKPvw=")
-c5.loginResult()
+#c4 = Aan.LINE()
+#c4.login(token="token")
+#c4.loginResult()
 
-c6 = Aan.LINE()
-c6.login(token="EoQWRbeN7FPR5gzhOyvb.VHH0q0Dhr8pSns5/+RsmgW.CPUNaL2uPZmGbAAiahXHnSxhdOxPEABgVlFFTtNKPvw=")
-c6.loginResult()
+#c5 = Aan.LINE()
+#c5.login(token="")
+#c5.loginResult()
+
+#c6 = Aan.LINE()
+#c6.login(token="EoQWRbeN7FPR5gzhOyvb.VHH0q0Dhr8pSns5/+RsmgW.CPUNaL2uPZmGbAAiahXHnSxhdOxPEABgVlFFTtNKPvw=")
+#c6.loginResult()
 
 print "_________________________________"
 print "=======[BOT Login Success]======="
@@ -293,7 +297,7 @@ wait = {
     'autoAdd':False,
     'message':"Cie Udah Add, Salken Ya  \n\nChat Aja Engga Ganggu Ko",
     "lang":"JP",
-    "comment":"Auto Like By T⃟E⃟A⃟M⃟ ᴄᴀᴄᴀᴅ ᴮᴼᵀˢ \n\nCreator : line://ti/p/~alipbot_\n\n Thanks for :\n☯️F̸r̸o̸n̸S̸ (Admin TCT yang orangnya rada rada sange tapi terbaiklah :v)\nhttp://line.me/ti/p/%40gtx1225l\n☯️Opan & Ananthaabdllah (admin/owner flow inspectbot yang kaga pelit ilmu ashoyy :v)\nhttp://line.me/ti/p/%40caj6350s\n☯️Mr.KyuZ∅ (admin/owner Garuda Gray Mask)\n☯️Djodi & Geri (Yang selalu sepaket :v)\nReno & Aked (Bocah yg rada rada bangsat :v)\n☯️dan all theacer serta member yg lainnya yg saya tidak sebutkan satu persatu namun tidak mengurangi sedikitpun kehormatan saya...\n\nThanks For All Teacher And All Member 😘😘",
+    "comment":"Auto Like By T⃟E⃟A⃟M⃟ ᴄᴀᴄᴀᴅ ᴮᴼᵀˢ \n\nCreator : line://ti/p/~yud.xx",
     "commentOn":False,
     "invite":{},
     "commentBlack":{},
